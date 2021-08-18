@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.3/css/fontawesome.min.css">
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+ <header>
+  <div class="sidepanel">
+  <i class="fa fa-th-large" style="padding:35px"></i>
+   <a href="#" style="text-decoration:none;padding:20px ;border-radius:2rem;border:solid 2px pink;font-size:20px;height:auto;"><b>Buy</b></a>
+  <i class="fa fa-bell" style="padding:35px"></i>
+  </div>
+</header>
+<style>
+.sidepanel{
+position:fixed;
+right:0px;
+padding-right:100px;
+padding-top:75px;
+}
+
+</style> 
+
+<div class="search-box" >
+ <input type="text" class="search-text">
+ <a href="#" class="searchbutton">
+<i class="fa fa-search" style="color:black;"></i></a>
+</div>
+ 
+ 
+   
+     
+
+
+<style>
+
+
+.search-box{
+left:250px;
+top:45px;
+position:fixed;
+display:flex;
+justify-content:left;
+align-items:left;
+
+}
+.search-text{
+width:10rem;
+border-radius:5px;
+position:fixed;
+border:solid 2px pink;
+
+}
+.searchbutton{
+width:2rem;
+height:2rem;
+position:absolute;
+color:black;
+display:grid;
+}
+
+a{
+text-decoration:none;
+}
+</style>
+
+<body style="background-color: #fee2f8;
+background-image: linear-gradient(315deg, #fee2f8 0%, #dcf8ef 74%);">
+
+
+   
+  
+   <div class="wrapper">
+   
+      
+      <a href="#" class="icon">
+      <i class="fa fa-bars" style="padding:50px;padding-bottom:50px;" ></i></a>
+      <nav >
+       <ul class="menu-area">
+          <li><a href="NewFile.jsp" target="iframe_a"><strong>Dashboard</strong></a>
+             <ul>
+                 <li><a href="#">Default</a></li>
+                 <li><a href="#">Content</a></li>
+             </ul>
+           </li>
+          <li><a href="#"><strong>About</strong></a></li>
+          <li><a href="#"><strong>Applications</strong></a></li>
+          <li><a href="#"><strong>UI</strong></a></li>
+        </ul>
+        </nav>
+</div>
+<iframe src="" name="iframe_a" style="border:none;position:absolute;top:40%;left:40%;align-items:center;height:300px;width:400px;">
+</iframe>
+
+</body>
+
+
+
+
+<style>
+
+
+
+.wrapper{
+position:absolute;
+margin:0px;
+padding:0;
+clear:both;
+}
+
+a:hover+nav{
+background-color:#b3e5fc
+}
+.menu-area{
+list-style:none;
+margin-top:50px;;
+width:150px;
+
+}
+
+
+.menu-area li{
+position:relative;
+padding:30px;
+display:block;
+
+}
+
+
+.menu-area li a{
+height:40px;
+position:relative;
+border-left:1 px solid red;
+display:block;
+text-decoration:none;
+
+}
+.menu-area li a strong{
+float:left;
+text-transform:uppercase;
+font-size:17px;
+position:fixed;
+left:10px;
+
+
+}
+.menu-area li :hover {
+color: pink;
+
+}
+
+.menu-area li ul{
+
+opacity:0;
+visibility:hidden;
+transition:300ms;
+z-index:999;
+left:120px;
+top:0;
+list-style:none;
+position:absolute;
+height:auto;
+min-width:auto;
+padding:0;
+margin:0;
+display:block;
+}
+.menu-area li:hover >ul{ 
+display:block;
+opacity:1;
+visibility:visible;
+
+}
+.menu-area li ul li  a{
+text-transform:uppercase;
+font-size:18px;
+padding:5px;
+text-align:center;
+border:0;
+border-left:1px solid red;
+height:auto;
+display:inline;
+
+
+}
+
+
+</style>
+
+</html>
